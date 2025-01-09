@@ -49,18 +49,32 @@ Una vez dentro de Eclipse, pulsamos Help -> Eclipse Marketplace
 
 1. Busca cuáles son las mejores extensiones de eclipse para programadores y las añades desde la tienda de tu IDE:
 
+- Python:
+ 
+ ![](Images/img5.png)
+
+- CodeQL:
+  
+ ![](Images/img6.png)
+
+2. Busca y escribe para qué sirven estos plugins: Checkstyle, Sonar Lint. 
+
+- Checkstyle: 
+
+Es una herramietna que revisa el código Java con el objetivo de verificar que sigue las convenciones de estilo definidas, como la identación y el nombrado de variables.
+
+ ![](Images/img7.png)
+
+- Sonar Lint:
+
+Es un plugin que analiza código en tiempo real para detectar errores, vulnerabilidades y problemas de calidad mientras escribimos código, ayuda de esta manera a mantener un código limpio y sin fallos.
+
+ ![](Images/img8.png)
 
 
-2. Busca y escribe para qué sirven estos plugins: Checkstyle, Sonar Lint. ç
 
 
-
-3. Instala los plugins y complementos que has encontrado y , además, busca e instala los plugins Checkstyle y Sonar Lint.
-
-
-
-
-
+> Ángel Pérez Blanco
 ## Prueba entornos
 
 
