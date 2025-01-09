@@ -30,6 +30,11 @@ Hay que fijarse bien en las instrucciones ya que vamos a trabajar con un entorno
    
 ![](Images/img3.png)
 
+Comprobación:
+
+![](Images/img4.png)
+
+
 Explicación del comando:
 
 El comando inicia un contenedor Docker con Eclipse, permite ejecutar la interfaz gráfica en mi máquina local, además, configura variables de entorno, monta directorios para compartir archivos y datos entre mi sistema y el contenedor y elimina el contenedor al terminar.
@@ -39,6 +44,19 @@ El comando inicia un contenedor Docker con Eclipse, permite ejecutar la interfaz
 Las extensiones de un IDE facilitan el trabajo al programar, hace más flexible nuestro IDE y también hace que nuestro código sea más seguro. 
 
 Las siguientes operaciones las puedes hacer desde el entorno Eclipse que hemos creado o puedes utilizar el IDE que prefieras en tu equipo:
+
+Una vez dentro de Eclipse, pulsamos Help -> Eclipse Marketplace
+
+1. Busca cuáles son las mejores extensiones de eclipse para programadores y las añades desde la tienda de tu IDE:
+
+
+
+2. Busca y escribe para qué sirven estos plugins: Checkstyle, Sonar Lint. ç
+
+
+
+3. Instala los plugins y complementos que has encontrado y , además, busca e instala los plugins Checkstyle y Sonar Lint.
+
 
 
 
