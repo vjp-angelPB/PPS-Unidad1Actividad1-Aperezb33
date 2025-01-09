@@ -9,3 +9,21 @@ Objetivos:
 * (Instalar extensiones en un IDE)[]
 * (Probar los entornos de Desarrollo)[]
 
+___
+
+## Eclipse Docker
+
+En el siguiente (enlace)[] podemos encontrar informacion para crear un contenedor docker con un entorno IDE Eclipse.
+
+Hay que fijarse bien en las instrucciones ya que vamos a trabajar con un entorno Linux:
+
+
+
+
+
+## Instalar extensiones
+
+## Prueba entornos
+
+
+
