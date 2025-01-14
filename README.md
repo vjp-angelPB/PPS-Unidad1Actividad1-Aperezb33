@@ -98,8 +98,7 @@ Es un plugin que analiza código en tiempo real para detectar errores, vulnerabi
 El entorno de desarrollo nos sirve para crear nuestras aplicaciones y además podemos comprobar los errores que tienen, problemas de seguridad, etc. por lo que desde allí vamos a poder corregirlos.
 
 
-
->__Descarga el código fuente de un proyecto java o python: compila, enlaza y ejecutaló. Tienes algunos ejemplos en la carpeta Sources de este repositorio__
+>__Descarga el código fuente de un proyecto java o python: compila, enlaza y ejecutalo. Tienes algunos ejemplos en la carpeta Sources de este repositorio__
 
 
 
