@@ -118,4 +118,5 @@ Se abrirá una ventana en la parte inferior de la pantalla y otra ventana con el
 En este caso, solo aparece una recomendación de la extensión SonarQube instalada anteriormente.
 
 
+
 > Ángel Pérez Blanco
