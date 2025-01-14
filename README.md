@@ -19,15 +19,36 @@ En el siguiente [enlace](https://hub.docker.com/r/dockeruc/eclipse) podemos enco
 Hay que fijarse bien en las instrucciones ya que vamos a trabajar con un entorno Linux:
 
 1. Creamos las carpetas necesarias:
-   
+~~~
+sudo mkdir -p $HOME/eclipse/datos
+sudo chown -R $(whoami) $HOME/docker/eclipse
+sudo chgrp -R $(whoami) $HOME/docker/eclipse
+~~~
+
 ![](Images/img1.png)
 
 2. Configurar el entorno gráfico:
+~~~
+export DISPLAY=:0
+startxwin -- -listen tcp &
+xhost + 
+~~~
 
 ![](Images/img2.png)
 
 3. Lanzamos el contenedor:
-   
+~~~
+sudo docker run -ti --rm \
+           -e DISPLAY=$DISPLAY \
+	       -e artifactory_host='IP:PUERTO'\
+		   --name eclipse \
+           -v /tmp/.X11-unix:/tmp/.X11-unix \
+           -v `pwd`:/workspace \
+           -v $HOME/docker/eclipse/datos:/home/developer \
+           dockeruc/eclipse	
+
+~~~
+
 ![](Images/img3.png)
 
 Comprobación:
@@ -72,10 +93,21 @@ Es un plugin que analiza código en tiempo real para detectar errores, vulnerabi
  ![](Images/img8.png)
 
 
+## Prueba entornos
+
+El entorno de desarrollo nos sirve para crear nuestras aplicaciones y además podemos comprobar los errores que tienen, problemas de seguridad, etc. por lo que desde allí vamos a poder corregirlos.
+
+
+
+>__Descarga el código fuente de un proyecto java o python: compila, enlaza y ejecutaló. Tienes algunos ejemplos en la carpeta Sources de este repositorio__
+
+
+
+
+>__Utiliza las herramientas de depuración de Eclipse o Netbeans para depurar el proyecto, y las diferentes extensiones para ver información, problemas, etc.__
+
+
+
 
 
 > Ángel Pérez Blanco
-## Prueba entornos
-
-
-
