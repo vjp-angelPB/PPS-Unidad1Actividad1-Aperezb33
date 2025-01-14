@@ -99,14 +99,23 @@ El entorno de desarrollo nos sirve para crear nuestras aplicaciones y además po
 
 
 >__Descarga el código fuente de un proyecto java o python: compila, enlaza y ejecutalo. Tienes algunos ejemplos en la carpeta Sources de este repositorio__
-
-
-
-
 >__Utiliza las herramientas de depuración de Eclipse o Netbeans para depurar el proyecto, y las diferentes extensiones para ver información, problemas, etc.__
 
+Voy a utilizar la herramienta de depuración de Visual Studio Code y el código fuente de __calculadoraGrafica.py__.
 
+Para realizar la prueba, iniciamos VsCode, seleccionamos el archivo "__calculadoraGrafica.py__"
 
+![](Images/img9.png)
+
+A continuación, seleccionamos __Ejecutar__ en el menú superior e __Iniciar depuración__.
+
+![](Images/img10.png)
+
+Se abrirá una ventana en la parte inferior de la pantalla y otra ventana con el contenido de calculadoraGrafica.py, si el código no está correctamente escrito, se mostrarán errores en el menú inferior mencionado anteriormente, también podemos observar recomendaciones y errores en el apartado "__PROBLEMAS__" del menú inferior
+
+![](Images/img11.png)
+
+En este caso, solo aparece una recomendación de la extensión SonarQube instalada anteriormente.
 
 
 > Ángel Pérez Blanco
